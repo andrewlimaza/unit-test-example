@@ -16,6 +16,6 @@
 defined( 'ABSPATH' ) or exit;
 
 function my_shortcode() {
-	echo 'Some shortcode output.';
+	echo 'Some shortcode output.';a
 }
 add_shortcode( 'my_shortcode', 'my_shortcode' );
