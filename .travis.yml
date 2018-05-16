@@ -21,6 +21,4 @@ matrix:
       env: WP_VERSION=latest
       dist: precise
 
-script:
-  #Run your tests here.
-  - echo 'Tested'
+script: phpunit
